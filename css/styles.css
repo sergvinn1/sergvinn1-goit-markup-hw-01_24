@@ -8,7 +8,26 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container { 
+    max-width: 1158px;
+    padding-left: auto;
+    padding-right: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    }
+
 .section-title {
     background:#2E2F42;
 }
@@ -81,6 +100,9 @@ ul {
     background-color: #4D5AE5;
     border: none;
     cursor: pointer;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+
 }
 
 .strategy {
@@ -125,3 +147,12 @@ ul {
     font-weight: 400;
     line-height: 1.5;
 }
+
+.navigation {
+    display: flex;
+}
+
+.navigation-site {
+    display: flex;
+}
+
