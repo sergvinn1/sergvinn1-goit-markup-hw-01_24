@@ -1,3 +1,91 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo-first {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    line-height: 21px;
+}
+
+.logo-second {
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.pages {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.pages:hover {
+    color: #4D5AE5;
+}
+
+.pages:focus {
+    color: #4D5AE5;
+}
+
+.contacts {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5; 
+    font-style: normal;
+}
+
+.contacts:hover {
+    color: #4D5AE5;
+}
+.contacts:focus {
+    color: #4D5AE5;
+}
+
+.first-text {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.order {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    border: none;
+    cursor: pointer;
+}
+
+.strategy {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.employment {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
