@@ -9,6 +9,13 @@ a {
 ul {
     list-style-type: none;
 }
+.section-title {
+    background:#2E2F42;
+}
+
+.section-first {
+    background: #F4F4FD;
+}
 
 .logo-first {
     color: #4D5AE5;
@@ -85,6 +92,35 @@ ul {
 
 .employment {
     color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+.footer {
+    background:#2E2F42;
+}
+
+.logo-footer {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color:#F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
