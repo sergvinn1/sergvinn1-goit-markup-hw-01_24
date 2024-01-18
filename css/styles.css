@@ -30,6 +30,7 @@ p {
 
 .section-title {
     background:#2E2F42;
+    height: 600px;
 }
 
 .section-first {
@@ -90,9 +91,14 @@ p {
     font-size: 56px;
     font-weight: 700;
     line-height: 1;
+
+    padding-top: 188px;
+    margin-bottom: 86px;
 }
 
 .order {
+    display: block;
+    margin: 0 auto;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
@@ -102,6 +108,7 @@ p {
     cursor: pointer;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
+    margin-bottom: 188px;
 
 }
 
@@ -126,6 +133,8 @@ p {
     font-weight: 700;
     line-height: 1.1;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .footer {
@@ -156,3 +165,33 @@ p {
     display: flex;
 }
 
+.event {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.event-first {
+    margin-right: 24px;
+}
+
+.event-first:last-child {
+    margin-right: 0;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.item-team {
+    flex-basis: ((100% - 24px)/4);
+    background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio {
+    display: flex;
+}
