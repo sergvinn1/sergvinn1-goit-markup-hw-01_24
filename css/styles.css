@@ -37,6 +37,10 @@ p {
     background: #F4F4FD;
 }
 
+.logo-header {
+    padding: 24px 0 24px 0;
+}
+
 .logo-first {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -54,6 +58,7 @@ p {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 1.2;
+    margin-right: 76px;
 }
 
 .pages {
@@ -61,6 +66,12 @@ p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    padding: 24px 0 24px 0;
+    margin-right: 40px;
+}
+
+.pages:last-child {
+    margin-right: 0;
 }
 
 .pages:hover {
@@ -70,6 +81,8 @@ p {
 .pages:focus {
     color: #4D5AE5;
 }
+
+
 
 .contacts {
     color: #434455;
@@ -109,7 +122,10 @@ p {
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
     margin-bottom: 188px;
+}
 
+.order:hover {
+    background-color: #404BBF;
 }
 
 .strategy {
@@ -117,13 +133,71 @@ p {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+
+    text-align: center;
+    margin-top: 32px;
+}
+
+.strategy-first {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    text-align: left;
+    margin-top: 32px;
+}
+
+.strategy-portfolio {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    text-align: start;
+    margin-top: 32px;
+    margin-left: 16px;
 }
 
 .employment {
+
+    display: block;
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    
+}
+
+.employment-first {
+
+    display: block;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    
+}
+
+.employment-portfolio {
+    display: block;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    text-align: start;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 .title {
@@ -151,18 +225,36 @@ p {
 }
 
 .footer-text {
+    display: flex;
     color:#F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    width: 264px;
+    padding-bottom: 100px;
 }
 
-.navigation {
+.header-navigation {
     display: flex;
 }
 
 .navigation-site {
     display: flex;
+}
+
+.adr {
+    display: flex;
+   
+}
+
+.mail {
+    padding: 24px 0 24px 0;
+    margin-left: 332px;
+}
+
+.tel {
+    padding: 24px 0 24px 0;
+    margin-left: 40px;
 }
 
 .event {
@@ -183,6 +275,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    padding-bottom: 120px;
 }
 
 .item-team {
@@ -194,4 +287,19 @@ p {
 
 .portfolio {
     display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.item-portfolio {
+    flex-basis: ((100% - 24px)/3);
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background:#FFF;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 101px;
+    margin-bottom: 17px;
 }
