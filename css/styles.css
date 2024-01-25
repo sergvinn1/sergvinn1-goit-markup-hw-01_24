@@ -31,6 +31,14 @@ p {
 .section-title {
     background:#2E2F42;
     height: 600px;
+    background-image: linear-gradient(
+      to bottom,
+       rgba(46, 47, 66, 0.70),
+       rgba(46, 47, 66, 0.70)
+    ), url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-first {
@@ -68,6 +76,7 @@ p {
     line-height: 1.5;
     padding: 24px 0 24px 0;
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .pages:last-child {
@@ -169,7 +178,6 @@ p {
 
     text-align: center;
     margin-top: 8px;
-    margin-bottom: 32px;
     
 }
 
@@ -259,7 +267,6 @@ p {
 
 .event {
     display: flex;
-    margin-top: 120px;
     margin-bottom: 120px;
 }
 
@@ -302,4 +309,59 @@ p {
     display: inline-block;
     margin-top: 101px;
     margin-bottom: 17px;
+}
+
+.icon {
+    display: flex;
+    margin-top: 120px;
+    
+}
+
+.icon-item {
+    display: flex;
+    
+    background-color: #F4F4FD;
+    margin-right: 24px;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid, #000000;
+}
+
+.icon-item:last-child {
+    margin-right: 0;
+}
+
+.icon-symbol {
+    width: 64px;
+    height: 64px;
+    align-self: center;
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    margin-top: 8px;
+ 
+    margin-bottom: 32px;   
+}
+
+.social-item {
+    display: flex;
+  
+    background-color: #4D5AE5;
+    margin-right: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid, #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-symbol {
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    margin: auto;
 }
