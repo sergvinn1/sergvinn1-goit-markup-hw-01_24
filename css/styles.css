@@ -181,6 +181,16 @@ p {
     
 }
 
+.cart {
+    display: block;
+}
+
+.list-footer {
+    display: block;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
 .employment-first {
 
     display: block;
@@ -240,6 +250,42 @@ p {
     line-height: 1.5;
     width: 264px;
     padding-bottom: 100px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-item {
+    display: flex;
+    background-color: #4D5AE5;
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid, #000000;
+   
+}
+
+.footer-item:hover{
+    background-color: #31D0AA;
+    cursor: pointer;
+}
+
+.footer-item:last-child {
+    margin-right: 0;
+}
+
+.text-footer {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    margin-bottom: 16px;
+}
+
+.footer-container {
+    display: flex;
 }
 
 .header-navigation {
@@ -305,6 +351,11 @@ p {
     background:#FFF;
 }
 
+.item-portfolio:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+}
+
 .logo {
     display: inline-block;
     margin-top: 101px;
@@ -359,9 +410,15 @@ p {
     margin-right: auto;
 }
 
+.social-item:hover{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
 .social-symbol {
     width: 16px;
     height: 16px;
     align-self: center;
     margin: auto;
+    fill: #2E2F42;
 }
