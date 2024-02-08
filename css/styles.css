@@ -85,10 +85,16 @@ p {
 
 .pages:hover {
     color: #4D5AE5;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
+    cursor: pointer;
 }
 
 .pages:focus {
     color: #4D5AE5;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
+    cursor: pointer;
 }
 
 
@@ -102,6 +108,9 @@ p {
 
 .contacts:hover {
     color: #4D5AE5;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
+    cursor: pointer;
 }
 .contacts:focus {
     color: #4D5AE5;
@@ -135,6 +144,9 @@ p {
 
 .order:hover {
     background-color: #404BBF;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
+    cursor: pointer;
 }
 
 .strategy {
@@ -166,6 +178,33 @@ p {
     text-align: start;
     margin-top: 32px;
     margin-left: 16px;
+}
+
+.thumb {
+    display: flex;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    background-color: #4D5AE5;
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+    z-index: 1;
+  }
+  
+  .item-portfolio:hover .thumb {
+    transform: translatey(0);
+  }
+
+.thumb-position {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 296px;
 }
 
 .employment {
@@ -270,6 +309,9 @@ p {
 .footer-item:hover{
     background-color: #31D0AA;
     cursor: pointer;
+    transition: 250ms;
+    cursor: pointer;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-item:last-child {
@@ -349,6 +391,8 @@ p {
     flex-basis: ((100% - 24px)/3);
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background:#FFF;
+    position: relative;
+    z-index: 2;
 }
 
 .item-portfolio:hover {
@@ -408,11 +452,14 @@ p {
     border: 1px solid, #000000;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .social-item:hover{
     background-color: #404BBF;
     cursor: pointer;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
 }
 
 .social-symbol {
@@ -422,3 +469,39 @@ p {
     margin: auto;
     fill: #2E2F42;
 }
+
+.subscribe {
+    background-color: #2E2F42;
+    height: 40px;
+    width: 264px;
+    border: #FFF;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.list-footer-item {
+    display: block;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.subscribe::placeholder {
+    color: #FFF;
+    
+  }
+
+  .btn-footer {
+    background-color: #4D5AE5;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+  }
+
+  .btn-footer:hover {
+    background-color: #31D0AA;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
+    cursor: pointer;
+  }
